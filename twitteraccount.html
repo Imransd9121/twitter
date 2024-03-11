@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+    <head>
+        <style>
+            body{
+                background-color: gray;
+            }
+         .form{
+            /* position: fixed; */
+            /* overflow-y: scroll; */
+            /* overflow: scroll; */
+            background-color: hsla(0, 0%, 100%, 0.986);
+            /* position: relative; */
+            margin-left: 28%;
+            width: 45%;
+            height: 550px;
+            /* border: 1px solid black; */
+            display: block;
+             text-align: center;
+            margin-top: 50px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .x{
+            margin-right: 95%;
+            color: black;
+            text-decoration: none;
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
+        }
+        .x:hover{
+            border-radius: 50%;
+            width: 10px;
+            height: 5px;
+            background-color:rgba(128, 128, 128, 0.253);
+        }
+        .twitter{
+            width: 50px;
+        }
+        h1{
+            margin-right: 17%;
+            margin-top: 10px;
+            font-size: 30px;
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
+        }
+        .one{
+            width: 70%;
+            height: 50px;
+            margin-right: 2%;
+            border: 0.5px solid gray;
+            border-radius: 5px;
+        }
+        .two{
+            width: 70%;
+            height: 50px;
+            margin-right: 2%;
+            border: 0.5px solid gray;
+            border-radius: 5px;
+            margin-top: 20px;   
+        }
+        .para{
+            text-align: left;
+            margin-left: 13%;
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
+        }
+        .light{
+        font-size: 13px;
+        margin-top: 0px;
+        color: gray;
+        }
+        .flex{
+            display: flex;
+            position: relative;
+            justify-content: space-evenly;
+            margin-left: 10%;
+        }
+        .flex select{
+            width: 40%;
+            height: 50px;
+            color: gray;
+            border: 0.5px solid gray;
+            border-radius: 5px;
+        }
+        .flex select:active{
+            border: 0.5px solid rgb(64, 241, 241);
+            border-radius: 5px;
+        }
+       
+        .flex .day{
+            width: 12%;
+            margin-left: 3%;
+            border: 0.5px solid gray;
+            border-radius: 5px;
+        }
+         .day:active{
+            border: 1ps solid red;
+
+        }
+        .flex .year{
+            width: 14% ;
+            margin-right: 19%;
+            border: 0.5px solid gray;
+            border-radius: 7px;
+        }
+        .next{
+            border: none;
+            border-radius: 20px;
+            width: 70%;
+            height: 50px;
+            margin-top: 25px;
+            color: white;
+            background-color: black;
+         }
+         .next:hover{
+            background-color: rgba(0, 0, 0, 0.801);
+         }
+       </style>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form">
+        <a  class="x" href="index.html"><b>X</b></a><br>
+        <img class="twitter" src="https://img.freepik.com/free-vector/twitter-new-2023-x-logo-white-background-vector_1017-45422.jpg" alt="">
+        <h1>Create your account</h1>
+        <input class="one" type="text" placeholder="Name"><br>
+        <input class="two" type="text" placeholder="Phone">
+        <br>
+        <div class="para">  <p><b>Date of birth</b><br>
+       <p class="light">This will not be shown publicly. Confirm your own age, even if this<br> account is for a business, a pet, or something else.</p></div>
+       <div class="flex">
+        <select name="" id="" >
+            <option value="">Month</option>
+            <option value="">January</option>
+            <option value="">February</option>
+            <option value="">March</option>
+            <option value="">April</option>
+            <option value="">May</option>
+            <option value="">June</option>
+            <option value="">July</option>
+            <option value="">August</option>
+            <option value="">September</option>
+            <option value="">October</option>
+            <option value="">November</option>
+            <option> December</option></select>
+            <input class="day" type="number" min="1" max="31" placeholder="Day">
+            <input class="year" type="number" min="1904" max="2024" placeholder="Year">
+        
+       </div>
+       <button class="but next"><b>Next</b></button>
+    </div>
+        
+</body>
+</html>

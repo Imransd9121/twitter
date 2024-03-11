@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Sign In</title>
+    <head>
+        <style>
+            body{
+                background-color: gray;
+            }
+         .form{
+            /* position: fixed; */
+            overflow-y: scroll;
+            /* overflow: scroll; */
+            background-color: hsla(0, 0%, 100%, 0.986);
+            /* position: relative; */
+            margin-left: 28%;
+            width: 45%;
+            height: 600px;
+            /* border: 1px solid black; */
+            display: block;
+             text-align: center;
+            margin-top: 50px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .x{
+            margin-right: 95%;
+            color: black;
+            text-decoration: none;
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
+        }
+        .x:hover{
+            border-radius: 50%;
+            width: 10px;
+            height: 5px;
+            background-color:rgba(128, 128, 128, 0.253);
+        }
+        .twitter{
+            width: 50px;
+        }
+        h1{
+            margin-right: 17%;
+            margin-top: 10px;
+            font-size: 30px;
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
+        }
+        
+        .one{
+            font-size: small;
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight:<weight>;
+            font-style:normal;
+            font-variation-settings:"wdth" 100;
+        }
+        .but{
+            width: 50%;
+            height: 37px;
+            background-color: white;
+            border: 0.5px solid rgba(128, 128, 128, 0.205);
+            border-radius: 40px;
+            margin: 5px;
+        }
+        .one a{
+            cursor: pointer;
+            text-decoration: none;
+            color: rgb(94, 86, 86); 
+            font-size: small;
+        }
+       
+        .google{
+            background: transparent;
+            width: 15px;
+            border-radius: 50%;
+        }
+        .apple a{
+            text-decoration: none
+        }
+       
+         .line{
+            color: rgba(128, 128, 128, 0.384); 
+            width: 100%;
+            /* font-size: x-small; */
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            /* font-weight:<weight>; */
+            font-style:normal;
+            font-variation-settings:"wdth" 100;
+        }
+        #or{
+            color: rgba(29, 29, 29, 0.767);
+        }
+        input{
+            width: 49%;
+            height: 45px;
+            background-color: white;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+         .next{
+            margin-top: 25px;
+            color: white;
+            background-color: black;
+         }
+         .next:hover{
+            background-color: rgba(0, 0, 0, 0.801);
+         }
+
+        .forgot:hover{
+            background-color: rgb(240, 242, 245);
+            cursor: pointer;
+        }
+        .one:hover{
+            background-color: rgb(249, 252, 255);
+        }
+        .last{
+            margin-top: 8%;
+            margin-right: 17%;
+            color: rgb(105, 104, 104);
+            font-size: small;
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
+        } 
+        .last a{
+            font-size:14px;
+            text-decoration: none;
+            color: rgb(45, 182, 182);
+        }
+        .last a:hover{
+            text-decoration: underline;
+        }
+        button a{
+            color: black;
+            text-decoration: none;
+        }
+        .but .apple:hover{
+            background-color: rgba(22, 21, 21, 0.753);
+        }
+        
+        
+       </style>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form">
+        <a  class="x" href="index.html"><b>X</b></a><br>
+        <img class="twitter" src="https://img.freepik.com/free-vector/twitter-new-2023-x-logo-white-background-vector_1017-45422.jpg" alt="">
+        <h1>Sign in to X</h1>
+        <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S318816868%3A1709700650776013&theme=glif" target="_blank"><button class="but one" ><img class="google" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png" alt="">  Sign up with Google</button></a>
+        <a style="color: black;" href="https://appleid.apple.com/auth/authorize?client_id=com.twitter.twitter.siwa&redirect_uri=https%3A%2F%2Ftwitter.com&response_type=code%20id_token&state=vs4K5C78ZmxNcCYvlwVy9BneFQj8pZ6c6kr8RH2iH8Z&scope=name%20email&response_mode=web_message&frame_id=96b34302-a813-4e9a-9d9e-64d174480384&m=11&v=1.5.5" target="_blank"> <button class="but apple"><i class="fa fa-apple" aria-hidden="true"></i> <b>Sign up with Apple</b> </button></a>
+        <br>
+       
+      <p class="line">________________ <span id="or">or</span>________________</p>
+       <input type="text" placeholder="Phone,email,or username">
+        <br>
+        <button class="but next"><b>Next</b></button>
+        <br>
+        <br>
+        <a href="twitterforgot.html"> <button class="but forgot"><b>Forgot password?</b></button></a>
+        <p class="last">Don't have an account? <a href="twittersignup.html">Sign up</a></p>
+</body>
+</html>
